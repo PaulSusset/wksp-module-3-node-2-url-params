@@ -1,0 +1,11 @@
+<%- include("../partials/header") %>
+<div class="bookPage">
+    <div>
+        <h3><%- book.title%></h3>
+        <div><%-book.author%></div>
+        <div><%-book.type%></div>
+        <p><%-book.description%></p>
+    </div>
+    <img src=<%- book.imgUrl%> alt="">
+</div>
+<%- include("../partials/footer") %>

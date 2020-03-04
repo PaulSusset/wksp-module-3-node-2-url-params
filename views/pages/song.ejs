@@ -1,0 +1,13 @@
+<%- include("../partials/header") %> <%let songHere = {} %>
+<%top50.forEach(song=>{ %> 
+<%if (song.rank.toString() === rankNum){ %> 
+<% songHere =song%>
+<%};});%>
+<div class='all'>
+    <div class='box songbox'>
+        <h3 class='big'><%- songHere.title %></h3>
+        <p class='small'><%- songHere.artist%></p>
+        <p class='number'><%- songHere.streams%></p>
+    </div>
+</div>
+<%- include("../partials/footer") %>

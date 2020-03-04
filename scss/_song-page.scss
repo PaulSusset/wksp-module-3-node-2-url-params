@@ -1,0 +1,29 @@
+
+.all{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.songbox{
+    height: 60vh;
+    margin-top: 10vh;
+    box-shadow: grey 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.big{
+    border-bottom: slategray 1px solid;
+    width: 100%;
+    text-align: center;
+    padding: 10px
+}
+.number{
+    font-size: 12rem;
+    padding: 30px;
+    color: slategray;
+    opacity: .5;
+}

@@ -83,6 +83,107 @@ codeblock {
   margin: 12px 32px 6px 0;
   padding: 12px 14px; }
 
+.row {
+  width: 90%;
+  padding: 10px 0;
+  display: flex;
+  border-bottom: 1px solid black;
+  margin: 0 5%;
+  position: relative; }
+
+.rank {
+  display: flex;
+  flex-direction: column;
+  padding: 5px; }
+
+.number {
+  font-size: 2rem; }
+
+.plays {
+  font-size: 0.8rem; }
+
+.info {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 5px; }
+
+.title {
+  margin: 0; }
+
+.artist {
+  font-style: italic; }
+
+.date {
+  text-align: right;
+  position: absolute;
+  bottom: 10px;
+  right: 0; }
+
+.all {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.songbox {
+  height: 60vh;
+  margin-top: 10vh;
+  box-shadow: grey 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.big {
+  border-bottom: slategray 1px solid;
+  width: 100%;
+  text-align: center;
+  padding: 10px; }
+
+.number {
+  font-size: 12rem;
+  padding: 30px;
+  color: slategray;
+  opacity: .5; }
+
+.book {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px; }
+
+.bookImg {
+  height: 75%;
+  width: 100%;
+  object-fit: cover; }
+
+.textSpace {
+  height: 25%; }
+
+.bookPage {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.each {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 5px;
+  border-bottom: solid black 1px;
+  margin: 0 15px; }
+
+.smallImage {
+  height: 100%;
+  width: auto; }
+
+.smlImgContainer {
+  height: inherit; }
+
 body {
   background: #fafafa;
   display: flex;

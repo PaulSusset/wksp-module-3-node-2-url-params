@@ -1,0 +1,10 @@
+<html>
+    <%- include('../partials/header.ejs') %>
+    <body>
+        <ol>
+            <% top50.forEach(x => { %> <%- include('../partials/song.ejs', {x:
+            x}) %> <% }); %>
+        </ol>
+    </body>
+    <%- include('../partials/footer.ejs') %>
+</html>

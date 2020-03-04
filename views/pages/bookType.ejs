@@ -1,0 +1,13 @@
+<%- include("../partials/header") %>
+<div>
+    <% typeArr.forEach(book=>{ %>
+        <div class="each">
+            <div>
+                <h3><%-book.title%></h3>
+                <p><%-book.author%></p>
+            </div>
+            <div class="smlImgContainer"><img class="smallImage"src=<%-book.imgUrl%> alt=""></div>
+        </div>
+    <%})%>
+</div>
+<%- include("../partials/footer") %>
